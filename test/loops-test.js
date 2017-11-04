@@ -54,8 +54,7 @@ describe('loops', () => {
     })
   })
 
-  describe('doWhile(array)', () => {
-    describe('doWhileLoop(array)', () => {
+  describe('doWhileLoop(array)', () => {
     it('removes elements from `array` until `array` is empty or until `maybeTrue()` returns `false`', () => {
       const [array, t] = makeArray()
       const l = array.length
@@ -65,4 +64,4 @@ describe('loops', () => {
       expect(newArray).to.have.length.of.at.most(l - 1)
     })
   })
-})
+
