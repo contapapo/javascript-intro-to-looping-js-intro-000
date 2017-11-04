@@ -5,8 +5,8 @@ function forLoop(){
       console.log(resp);
     }
     else {
-      // var resp = `I am ${i} strange loops.`;
-      // console.log(resp);
+      var resp = `I am ${i} strange loops.`;
+      console.log(resp);
     }
 
 }
