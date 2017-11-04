@@ -1,13 +1,14 @@
 function forLoop(){
   for (var i = 0; i <= 25; i++) {
+    var resp=[];
     if (i <== 1) {
-      var resp = `I am ${i} strange loop.`;
-      console.log(resp);
+      resp.push (`I am ${i} strange loop.`);
+      
     }
     else {
-      var resp = `I am ${i} strange loops.`;
-      console.log(resp);
+      resp.push (`I am ${i} strange loops.`);
+      
     }
-
+return resp;
 }
 }
